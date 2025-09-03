@@ -25,21 +25,6 @@ ACCESSO:
 - Username: admin
 - Password: admin
 
-STRUTTURA CARTELLE:
-/ipadmin/
-├── index.php          (File principale)
-├── .htaccess          (Configurazione Apache)
-├── lib/               (Librerie PHP)
-│   ├── auth.php       (Sistema di autenticazione) ATTENZIONE: Cambiare dati di accesso una volta installato
-│   ├── ipam.php       (Logica di gestione IP)
-│   └── storage.php    (Sistema di archiviazione)
-├── public/            (File statici)
-│   ├── app.js         (JavaScript dell'applicazione)
-│   └── style.css      (Fogli di stile)
-└── data/              (Creata automaticamente)
-    ├── subnets.json   (Database subnet)
-    └── ips/           (Database IP)
-
 SICUREZZA:
 - I file JSON sono protetti dall'accesso web
 - Sistema di autenticazione integrato
@@ -51,3 +36,4 @@ Fai backup della cartella "data" per preservare tutti i dati delle subnet e IP.
 
 SUPPORTO:
 L'applicazione è completamente auto-contenuta e non richiede database esterni.
+![Dashboard](/dashboard.png)
